@@ -1,0 +1,28 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": ["config:base", "helpers:pinGitHubActionDigests", "group:allNonMajor"],
+	"labels": ["Meta: Dependencies"],
+	"schedule": ["before 12pm on Sunday"],
+	"ignoreDeps": ["request", "npm", "eslint"],
+	"npm": {
+		"rangeStrategy": "bump",
+		"packageRules": [
+			{
+				"matchPackageNames": ["node-fetch"],
+				"allowedVersions": "<=2.6.7"
+			},
+			{
+				"matchPackageNames": ["chalk"],
+				"allowedVersions": "<=4.1.2"
+			},
+			{
+				"matchPackageNames": ["got"],
+				"allowedVersions": "<=11.8.3"
+			},
+			{
+				"matchPackageNames": ["got"],
+				"allowedVersions": "<=11.8.3"
+			}
+		]
+	}
+}
