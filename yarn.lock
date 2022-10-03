@@ -824,40 +824,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"atlas-api@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "atlas-api@workspace:."
-  dependencies:
-    "@commitlint/cli": 17.1.2
-    "@commitlint/config-conventional": 17.1.0
-    "@sapphire/prettier-config": 1.4.4
-    "@wildpeaks/eslint-config-commonjs": 15.6.0
-    "@wildpeaks/prettier-config": 15.6.0
-    arraybuffer-to-buffer: ^0.0.7
-    better-module-alias: ^1.1.0
-    body-parser: ^1.20.0
-    canvas: ^2.10.1
-    cors: ^2.8.5
-    cz-conventional-changelog: ^3.3.0
-    dotenv: ^16.0.3
-    eslint: 8.13.0
-    eslint-config-prettier: 8.5.0
-    eslint-plugin-prettier: 4.2.1
-    express: ^4.18.1
-    helmet: ^6.0.0
-    husky: ^8.0.1
-    is-image-url: ^1.1.8
-    lint-staged: ^13.0.3
-    node-superfetch: ^0.3.2
-    nodemon: 2.0.20
-    prettier: 2.7.1
-    pretty-quick: ^3.1.3
-    serve-favicon: ^2.5.0
-    standard-version: ^9.3.2
-    xss-clean: ^0.1.1
-  languageName: unknown
-  linkType: soft
-
 "balanced-match@npm:^1.0.0":
   version: 1.0.2
   resolution: "balanced-match@npm:1.0.2"
@@ -4398,6 +4364,40 @@ __metadata:
   checksum: 1d38588e520dab7cea67cbbe2efdd86a10cc7a074c09657635e34f035277b59fbb57d09d8638346bf7090f8e8ebc070c96fa5fd183b777fff4f5edff5e9466cf
   languageName: node
   linkType: hard
+
+"project-template@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "project-template@workspace:."
+  dependencies:
+    "@commitlint/cli": 17.1.2
+    "@commitlint/config-conventional": 17.1.0
+    "@sapphire/prettier-config": 1.4.4
+    "@wildpeaks/eslint-config-commonjs": 15.6.0
+    "@wildpeaks/prettier-config": 15.6.0
+    arraybuffer-to-buffer: ^0.0.7
+    better-module-alias: ^1.1.0
+    body-parser: ^1.20.0
+    canvas: ^2.10.1
+    cors: ^2.8.5
+    cz-conventional-changelog: ^3.3.0
+    dotenv: ^16.0.3
+    eslint: 8.13.0
+    eslint-config-prettier: 8.5.0
+    eslint-plugin-prettier: 4.2.1
+    express: ^4.18.1
+    helmet: ^6.0.0
+    husky: ^8.0.1
+    is-image-url: ^1.1.8
+    lint-staged: ^13.0.3
+    node-superfetch: ^0.3.2
+    nodemon: 2.0.20
+    prettier: 2.7.1
+    pretty-quick: ^3.1.3
+    serve-favicon: ^2.5.0
+    standard-version: ^9.3.2
+    xss-clean: ^0.1.1
+  languageName: unknown
+  linkType: soft
 
 "promise-inflight@npm:^1.0.1":
   version: 1.0.1
