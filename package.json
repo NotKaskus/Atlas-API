@@ -1,7 +1,7 @@
 {
-	"name": "project-template",
+	"name": "atlas-api",
 	"version": "1.0.0",
-	"description": "template",
+	"description": "A api for discord bot developers to use.",
 	"main": "./src/index.js",
 	"_moduleAliases": {
 		"#root/": "./src/",
