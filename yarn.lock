@@ -848,7 +848,7 @@ __metadata:
     husky: ^8.0.1
     is-image-url: ^1.1.8
     lint-staged: ^13.0.3
-    node-superfetch: ^0.3.2
+    node-superfetch: 0.2.3
     nodemon: 2.0.20
     prettier: 2.7.1
     pretty-quick: ^3.1.3
@@ -3871,7 +3871,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-fetch@npm:^2.6.7":
+"node-fetch@npm:^2.6.1, node-fetch@npm:^2.6.7":
   version: 2.6.7
   resolution: "node-fetch@npm:2.6.7"
   dependencies:
@@ -3905,12 +3905,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-superfetch@npm:^0.3.2":
-  version: 0.3.2
-  resolution: "node-superfetch@npm:0.3.2"
+"node-superfetch@npm:0.2.3":
+  version: 0.2.3
+  resolution: "node-superfetch@npm:0.2.3"
   dependencies:
     form-data: ^4.0.0
-  checksum: 60a77a5c007230bcb83385d3556d6db4c4f0a4f13466c815d004dba4543da709cb4333d687eee851d77841a78078f8934457fb3c0ee079b85d479a428986cdff
+    node-fetch: ^2.6.1
+  checksum: 3fa13c94c743178dda073d96929b581dbf3f1095c07959b7cbcc6d609929147fe6f64162a3af208b4bedfb03a44474cbb61f5422a376b65531fcb0bf8077c358
   languageName: node
   linkType: hard
 
