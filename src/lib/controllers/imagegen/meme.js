@@ -107,7 +107,7 @@ const NikeAd = async (image, something, sacrifice) => {
 
 const ThisGuy = async image => {
 	if (!isImageUrl(image)) return 0;
-	const base = await loadImage(join(__dirname, '..', 'resources', 'assets', 'images', 'this-guy.png'));
+	const base = await loadImage(getImage('meme', 'this-guy.png'));
 	const { body } = await request.get(image);
 	const data = await loadImage(body);
 	const canvas = createCanvas(base.width, base.height);
