@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const { SonicSays } = require('#controllers/imagegen/meme');
 
-router.get('/', async (req, res) => {
+router.get('/sonic-says', async (req, res) => {
 	const text = req.query.text;
 
 	try {

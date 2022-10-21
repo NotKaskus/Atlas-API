@@ -1,5 +1,5 @@
 const router = require('express').Router();
 
-router.use('/meme', require('./meme/index'));
+router.use('/meme', require('./meme'));
 
 module.exports = router;
