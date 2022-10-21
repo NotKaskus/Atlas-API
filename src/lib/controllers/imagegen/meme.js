@@ -66,7 +66,7 @@ const DistractedBF = async (otherGirlAvatarURL, boyfriendAvatarURL, girlfriendAv
 
 const LookAtThisPhotograph = async image => {
 	if (!isImageUrl(image)) return 0;
-	const base = await loadImage(join(__dirname, '..', 'resources', 'assets', 'images', 'look-at-this-photograph.png'));
+	const base = await loadImage(getImage('meme', 'look-at-this-photograph.png'));
 	const { body } = await request.get(image);
 	const data = await loadImage(body);
 	const canvas = createCanvas(base.width, base.height);
