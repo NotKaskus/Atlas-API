@@ -24,7 +24,7 @@ const SonicSays = async text => {
 };
 
 const ChangeMyMind = async text => {
-	const base = await loadImage(join(__dirname, '..', 'resources', 'assets', 'images', 'change-my-mind.png'));
+	const base = await loadImage(getImage('meme', 'change-my-mind.png'));
 	const canvas = createCanvas(base.width, base.height);
 	const ctx = canvas.getContext('2d');
 	ctx.textBaseline = 'top';
