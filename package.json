@@ -64,7 +64,7 @@
 		"url": "https://github.com/NotKaskus/template/issues"
 	},
 	"engines": {
-		"node": ">=v16.19.0",
+		"node": ">=18.18.2",
 		"npm": ">=7.0.0"
 	},
 	"commitlint": {
