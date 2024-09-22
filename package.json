@@ -40,8 +40,8 @@
 		"xss-clean": "^0.1.1"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "17.4.2",
-		"@commitlint/config-conventional": "17.4.2",
+		"@commitlint/cli": "19.5.0",
+		"@commitlint/config-conventional": "19.5.0",
 		"@sapphire/prettier-config": "1.4.5",
 		"@wildpeaks/eslint-config-commonjs": "15.6.0",
 		"@wildpeaks/prettier-config": "15.6.0",
